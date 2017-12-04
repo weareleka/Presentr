@@ -73,7 +73,7 @@ private enum Font: String {
     case Montserrat = "Montserrat-Regular"
     case SourceSansPro = "SourceSansPro-Regular"
 
-    func font(_ size: CGFloat = 15.0) -> UIFont {
+    func font(_ size: CGFloat = 18.0) -> UIFont {
         return UIFont(name: self.rawValue, size: size)!
     }
 
@@ -172,8 +172,8 @@ public class AlertViewController: UIViewController {
     fileprivate func setupFonts() {
         titleLabel.font = Font.Montserrat.font()
         bodyLabel.font = Font.SourceSansPro.font()
-        firstButton.titleLabel?.font = Font.Montserrat.font(11.0)
-        secondButton.titleLabel?.font = Font.Montserrat.font(11.0)
+        firstButton.titleLabel?.font = Font.Montserrat.font(16.0)
+        secondButton.titleLabel?.font = Font.Montserrat.font(16.0)
     }
 
     fileprivate func setupLabels() {
