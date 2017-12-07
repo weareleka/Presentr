@@ -73,7 +73,7 @@ private enum Font: String {
     case Montserrat = "Montserrat-Regular"
     case SourceSansPro = "SourceSansPro-Regular"
 
-    func font(_ size: CGFloat = 18.0) -> UIFont {
+    func font(_ size: CGFloat = 17.0) -> UIFont {
         return UIFont(name: self.rawValue, size: size)!
     }
 
