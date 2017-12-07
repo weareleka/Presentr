@@ -170,7 +170,7 @@ public class AlertViewController: UIViewController {
     // MARK: Setup
 
     fileprivate func setupFonts() {
-        titleLabel.font = Font.SourceSansPro.font()
+        titleLabel.font = Font.Montserrat.font(17.0)
         bodyLabel.font = Font.SourceSansPro.font()
         firstButton.titleLabel?.font = Font.Montserrat.font(16.0)
         secondButton.titleLabel?.font = Font.Montserrat.font(16.0)
